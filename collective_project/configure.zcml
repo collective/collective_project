@@ -1,2 +1,8 @@
-<configure>
+<configure
+    xmlns:gs="http://namespaces.zope.org/genericsetup">
+
+    <gs:registerProfile
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+        
 </configure>
