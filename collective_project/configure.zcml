@@ -5,5 +5,7 @@
     <gs:registerProfile
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
+
+    <include package=".content" />
         
 </configure>

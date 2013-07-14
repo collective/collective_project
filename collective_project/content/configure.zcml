@@ -1,0 +1,5 @@
+<configure>
+
+  <grok:grok package="." />
+
+</configure>
