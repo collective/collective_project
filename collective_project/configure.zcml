@@ -1,6 +1,7 @@
 <configure
     xmlns:gs="http://namespaces.zope.org/genericsetup">
 
+    <!-- https://twitter.com/aclark4life/status/356385134385176577 -->
     <gs:registerProfile
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
