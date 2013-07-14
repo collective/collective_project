@@ -22,7 +22,7 @@
  <property name="behaviors">
     <element value="plone.app.content.interfaces.INameFromTitle"/>
  </property>
- <property name="schema">collective.project.iteration.IIteration</property>
+ <property name="schema">collective_project.client.iteration.IIteration</property>
  <property name="model_source"></property>
  <property name="model_file"></property>
  <alias from="(Default)" to="(selected layout)"/>
