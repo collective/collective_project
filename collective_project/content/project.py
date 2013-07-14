@@ -1,6 +1,6 @@
-from zope.interface import Interface
+from plone.directives import form
 
 
-class IProject(Interface):
+class IProject(form.Schema):
     """
     """
