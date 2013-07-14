@@ -7,8 +7,8 @@ class IClient(form.Schema):
     """
     """
 
-    title = TextLine(title="Name")
-    email = TextLine(title="E-mail", required=False)
-    website = TextLine(title="Website", required=False)
-    address = Text(title="Address", required=False)
-    description = Text(title="Notes", required=False)
+    title = TextLine(title=u"Name")
+    email = TextLine(title=u"E-mail", required=False)
+    website = TextLine(title=u"Website", required=False)
+    address = Text(title=u"Address", required=False)
+    description = Text(title=u"Notes", required=False)
